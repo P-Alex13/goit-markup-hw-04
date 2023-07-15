@@ -1,0 +1,565 @@
+/* Body */
+
+body {
+  font-family: "roboto", sans-serif;
+  position: relative;
+  width: 1600px;
+  height: 2348px;
+  background: #ffffff;
+}
+
+/* Nav */
+
+.nav ul {
+  margin: 0;
+}
+
+.main-nav li {
+  display: inline;
+}
+
+.nav a {
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-family: "roboto", sans-serif;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+
+nav {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 54px;
+  top: -3px;
+  background: #ffffff;
+}
+
+.web {
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  position: relative;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 6px;
+  margin: 0;
+  color: rgb(0, 0, 0);
+}
+
+.line {
+  /* This is how i think we need to do for that line  */
+  position: absolute;
+  width: 1600px;
+  height: 0px;
+  left: 0px;
+  top: 72px;
+  border: 1px solid #ececec;
+  margin: 0;
+}
+
+.nav .studio {
+  position: absolute;
+  width: 42px;
+  height: 16px;
+  left: 453px;
+  top: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  color: #2196f3;
+}
+
+.nav .portofolio {
+  position: absolute;
+  width: 57px;
+  height: 16px;
+  left: 545px;
+  top: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #212121;
+}
+
+.nav .contacts {
+  position: absolute;
+  width: 59px;
+  height: 16px;
+  left: 653px;
+  top: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #212121;
+}
+
+.mail {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1097px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+  color: #2196f3;
+}
+
+.phone {
+  position: absolute;
+  width: 113px;
+  height: 16px;
+  left: 1272px;
+  top: 32px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+  color: #757575;
+}
+
+.mail:hover,
+.phone:hover {
+  color: #2196f3;
+}
+.mail:focus,
+.phone:focus {
+  color: #2196f3;
+}
+
+.nav ul li a:hover,
+.nav ul li a:focus {
+  color: #2196f3;
+}
+
+.web-logo {
+  color: #2196f3;
+}
+span {
+  color: #757575;
+}
+
+/* Head Section*/
+
+.group-container {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+}
+
+.group-container h2 {
+  margin-top: -50px;
+}
+
+.group-container button {
+  margin-top: -50px;
+}
+
+
+
+.title {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.btn {
+  position: absolute;
+  width: 161px;
+  height: 30px;
+  left: 720px;
+  top: 440px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+.btnReq {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main-group1 {
+  position: absolute;
+  width: 1100px;
+  height: 101px;
+  left: 215px;
+  margin-top: 774px;
+  display: flex;
+  width: 50%;
+  margin-left: 60px;
+}
+
+.main-group1 p {
+  color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.main-group1 h3 {
+  color: #212121;
+  width: 253.85px;
+  height: 16px;
+  top: 774px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* What We Do Section */
+
+.what-we-do ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.what-we-do {
+  position: absolute;
+  width: 1100px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
+
+.whatwedo-title h2 {
+  width: 100%;
+  left: 701px;
+  top: 969px;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03rem;
+  color: #212121;
+}
+
+/* Our Team Section*/
+
+.our-team {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+  background: #f5f4fa;
+}
+
+.our-team h2 {
+  width: 165px;
+  height: 42px;
+  left: 718px;
+  top: 1543px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  width: 100%;
+}
+
+.our-team ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.our-team span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-top: 5px;
+}
+
+.our-team h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 5px;
+  color: #212121;
+}
+.container-card1,
+.container-card2,
+.container-card3,
+.container-card4 {
+  padding-bottom: 20px;
+}
+/* Footer Section */
+
+.main-footer {
+  position: absolute;
+  width: 1600px;
+  height: 251px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
+}
+
+.main-footer ul {
+  list-style-type: none;
+}
+
+.main-footer a {
+  text-decoration: none;
+}
+
+.mail-footer,
+.phone-footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.address:hover,
+.mail-footer:hover,
+.phone-footer:hover {
+  color: #2196f3;
+}
+.address:focus,
+.mail-footer:focus,
+.phone-footer:focus {
+  color: #2196f3;
+}
+
+aside {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-left: 215px;
+  margin-top: 60px;
+}
+.main-footer li {
+  margin-left: -30px;
+}
+
+/* Portofolio */
+
+.container1 {
+  position: absolute;
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 128px;
+  gap: 94px;
+}
+
+.project ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 200px;
+}
+.project1 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  margin-bottom: 30px;
+}
+
+.project p {
+  color: #757575;
+}
+
+section .filter1 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50px;
+  text-align: center;
+}
+
+.btn-active {
+  border: none;
+  border-radius: 4px;
+  width: 64px;
+  height: 38px;
+  cursor: pointer;
+  background: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+section .filter1 .btn-active:hover,
+section .filter1 .btn-active:focus {
+  background-color: #2196f3;
+  color: white;
+}
+.btnWeb {
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 120px;
+  height: 38px;
+  left: 614px;
+  top: 128px;
+  border: none;
+  cursor: pointer;
+}
+
+section .filter1 .btnWeb:hover,
+section .filter1 .btnWeb:focus {
+  background-color: #2196f3;
+  color: white;
+}
+
+.btnApps {
+  width: 83px;
+  height: 38px;
+  left: 742px;
+  top: 128px;
+  border: none;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+section .filter1 .btnApps:hover,
+section .filter1 .btnApps:focus {
+  background-color: #2196f3;
+  color: white;
+}
+
+.btnDesign {
+  width: 96px;
+  height: 38px;
+  left: 833px;
+  top: 128px;
+  border: none;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+section .filter1 .btnDesign:hover,
+section .filter1 .btnDesign:focus {
+  background-color: #2196f3;
+  color: white;
+}
+
+.btnMarketing {
+  width: 121px;
+  height: 38px;
+  left: 937px;
+  top: 128px;
+  border: none;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+section .filter1 .btnMarketing:hover,
+section .filter1 .btnMarketing:focus {
+  background-color: #2196f3;
+  color: white;
+}
