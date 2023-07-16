@@ -9,6 +9,8 @@ body {
   margin: auto;
 }
 
+
+
 /* Nav */
 
 .nav ul {
@@ -654,21 +656,44 @@ text-transform: uppercase;
   display: flex;
   width: 1170px;
   height: 1360px;
-  margin-top: 94px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top:94px;
   margin-left: 215px;
-  
+  margin-top:94px;
  
+}
+
+.container1 .filter1 {
+  display: flex;
+  width: 516px;
+height: 38px;
+flex-shrink: 0;
+gap:8px;
+margin-top:94px;
+margin-bottom: 54px;;
 }
 
 .global-project{
   display: flex;
   flex-wrap: wrap;
+  gap:30px;
   
+}
+.project .global-project{
+  display: flex;
+  align-items: center;
+}
+
+.global-project .project1{
+   box-sizing: border-box;
+  width: 370px;
+height: 404px;
+flex-shrink: 0;
   
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  margin-bottom: 30px;
 }
 
 
@@ -687,10 +712,9 @@ text-transform: uppercase;
   width: 64px;
   height: 38px;
   cursor: pointer;
-  background: #2196f3;
-  color: #ffffff;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  background: #F5F4FA;
+  color: #212121;
+  
   
 }
 
@@ -698,6 +722,8 @@ section .filter1 .btn-active:hover,
 section .filter1 .btn-active:focus {
   background-color: #2196f3;
   color: white;
+   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .btnWeb {
   background: #f5f4fa;
@@ -714,6 +740,8 @@ section .filter1 .btnWeb:hover,
 section .filter1 .btnWeb:focus {
   background-color: #2196f3;
   color: white;
+   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .btnApps {
@@ -730,6 +758,8 @@ section .filter1 .btnApps:hover,
 section .filter1 .btnApps:focus {
   background-color: #2196f3;
   color: white;
+   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .btnDesign {
@@ -746,6 +776,8 @@ section .filter1 .btnDesign:hover,
 section .filter1 .btnDesign:focus {
   background-color: #2196f3;
   color: white;
+   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .btnMarketing {
@@ -762,4 +794,13 @@ section .filter1 .btnMarketing:hover,
 section .filter1 .btnMarketing:focus {
   background-color: #2196f3;
   color: white;
+   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.global-project .project1:hover,
+.global-project .project1:focus{
+  border: 1px solid #EEE;
+background: #FFF;
+box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
