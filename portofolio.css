@@ -650,6 +650,7 @@ span {
   gap: 8px;
   margin-top: 94px;
   margin-bottom: 54px;
+  
 }
 
 .global-project {
@@ -673,11 +674,29 @@ span {
 .global-project .project1 h2,
 .global-project .project1 span{
   margin-left: 24px;
+  
 }
 
-.project span {
-  color: #757575;
+.global-project .project1 h2{
+  color: #212121;
+font-family: "Roboto";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; 
+letter-spacing: 1.08px;
 }
+
+.global-project .project1 span{
+  color: #757575;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.48px;
+}
+
 
 .btn-active {
   border: none;
