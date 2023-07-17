@@ -487,6 +487,9 @@ margin-top:94px;
   align-items: center;
 }
 
+.regular-section .container-list svg{
+  color:#757575
+}
 
 
 .regular-section .regular-list {
@@ -507,11 +510,18 @@ flex-shrink: 0;
 border-radius: 4px;
 border: 1px solid #AFB1B8;
 }
+.regular-list .container-list svg:hover,
+.regular-list .container-list svg:focus{
 
-.foster-logo{
-  border-radius: 4px;
-border: 1px solid #2196F3;
+  color: #2196F3;
+  
+
 }
+.regular-list .container-list:hover,
+.regular-list .container-list:focus{
+  border: 1px solid #2196F3;
+}
+
 
 /* Footer Section */
 
