@@ -130,13 +130,13 @@ nav {
   width: 16px;
   height: 11.996px;
   flex-shrink: 0;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 .contacts-header .svg-phone {
   width: 10px;
   height: 16px;
   flex-shrink: 0;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 .contacts-header .mail {
   display: flex;
@@ -612,11 +612,21 @@ span {
 }
 
 .footer-links .links-list .icon-footer:hover,
-.footer-links .links-list .icon-footer:focus {
-  background-color: #2196f3;
-  fill: #ffffff;
-  color: #ffffff;
+.footer-links .links-list .icon-footer:focus{
+  background-color: #2196F3;
+  
 }
+
+.footer-links .links-list .icon-footer:hover svg,
+.footer-links .links-list .icon-footer:focus svg {
+  color: #ffffff;
+  }
+
+  .footer-links .links-list .icon-footer svg,
+.footer-links .links-list .icon-footer  svg {
+  color: #ffffff;
+  }
+
 
 .footer-links h3 {
   color: #fff;
