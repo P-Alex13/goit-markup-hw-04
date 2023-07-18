@@ -13,17 +13,9 @@ body {
 
 /* Nav */
 
-.nav ul {
-  margin: 0;
-}
 
-.main-nav li {
-  display: flex;
-}
 
-.nav-bar {
-  width: 50%;
-}
+
 
 .nav a {
   padding: 0.5em;
@@ -40,15 +32,38 @@ body {
   width: 50%;
 }
 
-nav {
-  position: absolute;
+.nav {
+  display: flex;
   width: 1600px;
   height: 80px;
-  left: 54px;
-  top: -3px;
+}
+
+.nav-bar{
+  display: flex;
+  width: 1600px;
+  height: 80px;
+  margin-left: 215px;
+  
+}
+
+.menu-bar ul {
+  display: flex;
+  justify-content: space-between;
+  width: 259px;
+height: 48px;
+flex-shrink: 0;
+margin-left: 93px;
+gap:50px;
+margin-top:32px;
+}
+
+.nav-bar ul {
+
+  list-style-type: none;
 }
 
 .web {
+  display: flex;
   font-family: "raleway";
   font-style: normal;
   font-weight: 700;
@@ -58,29 +73,29 @@ nav {
   position: relative;
   width: 145px;
   height: 31px;
-  left: 215px;
-  top: 6px;
-  margin: 0;
+ 
+ margin-top:24px;
   color: rgb(0, 0, 0);
 }
 
 .line {
   /* This is how i think we need to do for that line  */
-  position: absolute;
+  display: flex;
   width: 1600px;
-  height: 0px;
-  left: 0px;
-  top: 72px;
+  
+  margin-top: 32px;
+  margin-bottom: 0;
   border: 1px solid #ececec;
-  margin: 0;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .nav .studio {
-  position: absolute;
+  display: flex;
   width: 42px;
   height: 16px;
-  left: 453px;
-  top: 24px;
+  
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -91,11 +106,10 @@ nav {
 }
 
 .nav .portofolio {
-  position: absolute;
+  display: flex;
   width: 57px;
   height: 16px;
-  left: 545px;
-  top: 24px;
+  
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -106,11 +120,10 @@ nav {
 }
 
 .nav .contacts {
-  position: absolute;
+  display: flex;
   width: 59px;
   height: 16px;
-  left: 653px;
-  top: 24px;
+  
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -123,10 +136,12 @@ nav {
 .contacts-header {
   display: flex;
   justify-content: flex-end;
-  padding-top: 30px;
+  
   margin-right: 200px;
   gap: 40px;
 }
+
+
 
 .contacts-header .svg-mail {
   width: 16px;
@@ -194,39 +209,37 @@ span {
 /* Head Section*/
 
 .group-container {
-  position: absolute;
+  display: flex;
   width: 1600px;
   height: 600px;
-  left: 0px;
-  top: 80px;
-  background: rgba(47, 48, 58, 0.4);
-  background-image: url(/images/ImgHeader.jpg);
+  justify-content: center;
+  align-items: center;
+  
+  background-image: linear-gradient(rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40)), url(./images/ImgHeader.jpg);
 }
 
 .group-container h2 {
-  margin-top: -80px;
+  margin-top: 
 }
 
 .group-container button {
-  margin-top: -80px;
+  margin-top: ;
   border: none;
 }
 
 .title {
-  position: absolute;
+  display: flex;
   width: 696px;
   height: 120px;
-  left: 452px;
-  top: 280px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px; /* 136.364% */
+letter-spacing: 2.64px;
+text-transform: uppercase;
 }
 
 .btn {
@@ -262,10 +275,12 @@ span {
 .group1 .main-group1 {
   display: flex;
   justify-content: center;
-  margin-top: 744px;
+  align-items: center;
+  margin-top: 94px;
   gap: 30px;
-  width: 100%;
-  height: 251px;
+ width: 100%;
+height: 251px;
+flex-shrink: 0;
 }
 
 .main-group1 .text-icon {
