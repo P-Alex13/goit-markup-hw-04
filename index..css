@@ -34,8 +34,15 @@ body {
 
 .nav {
   display: flex;
+  
+  
+}
+
+.global-nav{
+   display: flex;
   width: 1600px;
   height: 80px;
+  
 }
 
 .nav-bar{
@@ -44,6 +51,12 @@ body {
   height: 80px;
   margin-left: 215px;
   
+}
+
+.menu-bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu-bar ul {
@@ -70,11 +83,12 @@ margin-top:32px;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  position: relative;
   width: 145px;
   height: 31px;
- 
+ justify-content: center;
+ align-items: center;
  margin-top:24px;
+ margin-bottom: 25px;
   color: rgb(0, 0, 0);
 }
 
@@ -82,9 +96,7 @@ margin-top:32px;
   /* This is how i think we need to do for that line  */
   display: flex;
   width: 1600px;
-  
-  margin-top: 32px;
-  margin-bottom: 0;
+  margin: 0;
   border: 1px solid #ececec;
   justify-content: center;
   align-items: center;
@@ -135,10 +147,13 @@ margin-top:32px;
 
 .contacts-header {
   display: flex;
+  width: 100%;
+  height: 16px;
   justify-content: flex-end;
-  
+  align-items: center;
   margin-right: 200px;
-  gap: 40px;
+  gap: 60px;
+  margin-top:32px;
 }
 
 
@@ -157,6 +172,8 @@ margin-top:32px;
 }
 .contacts-header .mail {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 16px;
   font-family: "Roboto";
@@ -212,66 +229,64 @@ span {
   display: flex;
   width: 1600px;
   height: 600px;
-  justify-content: center;
-  align-items: center;
-  
+ justify-content: center;
+ align-items: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40)), url(./images/ImgHeader.jpg);
 }
 
-.group-container h2 {
-  margin-top: 
-}
-
-.group-container button {
-  margin-top: ;
-  border: none;
-}
-
-.title {
+.group-container .group-btn-title{
   display: flex;
-  width: 696px;
-  height: 120px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+
+
+.group-title h2 {
+  display: flex;
   color: #FFF;
+  width: 696px ;
+  height: 120px;
 text-align: center;
-font-family: Roboto;
+font-family: "Roboto";
 font-size: 44px;
 font-style: normal;
 font-weight: 900;
 line-height: 60px; /* 136.364% */
 letter-spacing: 2.64px;
 text-transform: uppercase;
+margin: 0;
+
 }
 
-.btn {
-  position: absolute;
-  width: 161px;
-  height: 30px;
-  left: 720px;
-  top: 440px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  color: #ffffff;
-}
-.btnReq {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
+.group-btn{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
 }
 
+.group-btn .btn{
+  border:none;
+    display: flex;
+    width: 200px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+
+
+
+
+/* Group Section */
 .group1 .main-group1 {
   display: flex;
   justify-content: center;

@@ -21,40 +21,48 @@
 
   <body class="index">
     <header class="main-header">
-      <nav class="nav main-nav">
-        <div class="nav-bar">
-          <a href="index.html">
-          <div class="web"><span class="web-logo">Web</span>Studio
-            </div>
-          </a>
+      <div class="global-nav">
+        <nav class="nav main-nav">
+          <div class="nav-bar">
+            <a href="index.html">
+              <div class="web"><span class="web-logo">Web</span>Studio</div>
+            </a>
             <div class="menu-bar">
-          <ul>
-            <li><a class="studio" href="index.html">Studio</a></li>
-            <li><a class="portofolio" href="portofolio.html">Portofolio</a></li>
-            <li><a class="contacts" href="#">Contacts</a></li>
-          </ul>
+              <ul>
+                <li><a class="studio" href="index.html">Studio</a></li>
+                <li>
+                  <a class="portofolio" href="portofolio.html">Portofolio</a>
+                </li>
+                <li><a class="contacts" href="#">Contacts</a></li>
+              </ul>
             </div>
+          </div>
+        </nav>
+        <div class="contacts-header">
+          <a class="mail" href="mailto:info@devstudio.com">
+            <svg class="svg-mail">
+              <use href="./images/icons.svg#icon-mail"></use>
+            </svg>
+            info@devstudio.com</a
+          >
+          <a class="phone" href="tel:+12127724150">
+            <svg class="svg-phone">
+              <use href="./images/icons.svg#icon-smartphone"></use></svg
+            >+1 212-772-4150</a
+          >
         </div>
-      </nav>
-      <div class="contacts-header">
-        <a class="mail" href="mailto:info@devstudio.com">
-          <svg class="svg-mail">
-            <use href="./images/icons.svg#icon-mail"></use>
-          </svg>
-          info@devstudio.com</a
-        >
-        <a class="phone" href="tel:+12127724150">
-          <svg class="svg-phone">
-            <use href="./images/icons.svg#icon-smartphone"></use></svg
-          >+1 212-772-4150</a
-        >
       </div>
       <hr class="line" />
       <section class="group-container">
         <div class="group-btn-title">
-          <h2 class="title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h2>
-
-          <button type="button" class="btn btnReq">Request our service</button>
+          <div class="group-title">
+            <h2 class="title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h2>
+          </div>
+          <div class="group-btn">
+            <button class="btn" data-modal-open type="button" >
+              Request our service
+            </button>
+          </div>
         </div>
       </section>
     </header>
@@ -444,7 +452,10 @@
           <h3>FIND US ON</h3>
 
           <div class="links-list">
-            <a href="https://www.instagram.com" class="icon-footer" aria-label="Instagram"
+            <a
+              href="https://www.instagram.com"
+              class="icon-footer"
+              aria-label="Instagram"
               ><svg>
                 <use
                   href="./images/icons.svg#icon-instagram"
@@ -452,15 +463,21 @@
                 ></use>
               </svg>
             </a>
-             <a href="https://www.twitter.com" class="icon-footer" aria-label="Twitter"
+            <a
+              href="https://www.twitter.com"
+              class="icon-footer"
+              aria-label="Twitter"
               ><svg>
                 <use
-                  href="./images/icons.svg#icon-twitter" 
+                  href="./images/icons.svg#icon-twitter"
                   aria-label="BRAND logo"
                 ></use>
               </svg>
             </a>
-             <a href="https://www.Facebook.com" aria-label="Facebook" class="icon-footer"
+            <a
+              href="https://www.Facebook.com"
+              aria-label="Facebook"
+              class="icon-footer"
               ><svg>
                 <use
                   href="./images/icons.svg#icon-facebook"
@@ -468,7 +485,10 @@
                 ></use>
               </svg>
             </a>
-             <a href="https://www.Linkedin.com" class="icon-footer" aria-label="Linkedin"
+            <a
+              href="https://www.Linkedin.com"
+              class="icon-footer"
+              aria-label="Linkedin"
               ><svg>
                 <use
                   href="./images/icons.svg#icon-linkedin"
@@ -480,5 +500,15 @@
         </div>
       </section>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal is-hidden" data-modal>
+      <div class="modal-content">
+        <button class="close-btn" data-modal-close>&times;</button>
+        Continutul modalului
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
