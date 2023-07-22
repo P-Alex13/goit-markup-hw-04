@@ -13,6 +13,33 @@ body {
 
 /* Nav */
 
+.nav-bar .studio:hover,
+.nav-bar .studio:focus,
+.nav-bar .studio:active {
+  text-decoration: underline  2px #2196F3 ;
+  text-underline-offset: 33px;
+  border-radius: 2px;
+  
+}
+.nav-bar .portofolio:hover,
+.nav-bar .portofolio:focus,
+.nav-bar .portofolio:active {
+  text-decoration: underline  2px #2196F3 ;
+   text-underline-offset: 33.5px;
+   border-radius: 2px;
+  
+}
+
+.nav-bar .contacts:hover,
+.nav-bar .contacts:focus,
+.nav-bar .contacts:active {
+  text-decoration: underline  2px #2196F3 ;
+   text-underline-offset: 33.5px;
+   
+  
+  
+}
+
 
 
 
@@ -20,7 +47,11 @@ body {
 .nav a {
   padding: 0.5em;
   text-decoration: none;
+  position: relative;
 }
+
+
+
 
 .main-nav {
   text-align: center;
@@ -268,7 +299,7 @@ align-items: center;
 margin-top: 30px;
 }
 
-.group-btn .btn{
+.group-btn .btn-req-service{
   border:none;
     display: flex;
     width: 200px;
@@ -858,4 +889,56 @@ section .filter1 .btnMarketing:focus {
   border: 1px solid #EEE;
 background: #FFF;
 box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+/* Modal */
+
+.modal{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+.modal-content{
+  padding:16px;
+  background:#ffffff;
+  width: 528px;
+height: 581px;
+flex-shrink: 0;
+  margin:0 auto;
+  position: relative;
+ 
+}
+
+
+.is-hidden{
+visibility: hidden;
+}
+
+.close-btn svg{
+  background-color: #fff;
+  border: none;
+  width: 18px;
+height: 18px;
+flex-shrink: 0;
+color: #fff;
+cursor: pointer;
+position: absolute;
+right: 10px;
+top:16px;
+
+}
+
+
+.close-btn {
+  background-color: #fff;
+  border: none;
 }
