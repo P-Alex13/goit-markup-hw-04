@@ -902,9 +902,11 @@ box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+ pointer-events: none;
+  
   
 }
-
 
 
 .modal-content{
@@ -915,6 +917,8 @@ height: 581px;
 flex-shrink: 0;
   margin:0 auto;
   position: relative;
+  
+ 
  
 }
 
@@ -942,3 +946,4 @@ top:16px;
   background-color: #fff;
   border: none;
 }
+
